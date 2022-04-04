@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_outline_space_dashboard_24"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/nav_parcel"
+        android:icon="@drawable/ic_baseline_parcel_24"
+        android:title="@string/title_parcel" />
+
+    <item
+        android:id="@+id/nav_finance"
+        android:icon="@drawable/ic_outline_attach_money_24"
+        android:title="@string/title_finance" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_outline_person_24"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_outline_notifications_24"
+        android:title="@string/title_notification" />
+
+</menu>

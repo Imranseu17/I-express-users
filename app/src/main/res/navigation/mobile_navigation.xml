@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.app.i_express.view.ui.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_parcel"
+        android:name="com.app.i_express.view.ui.parcel.ParcelFragment"
+        android:label="@string/title_parcel"
+        tools:layout="@layout/fragment_parcel" />
+
+    <fragment
+        android:id="@+id/nav_finance"
+        android:name="com.app.i_express.view.ui.finance.FinanceMainFragment"
+        android:label="@string/title_finance"
+        tools:layout="@layout/fragment_finance_main" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.app.i_express.view.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.app.i_express.view.ui.NotificationFragment"
+        android:label="@string/title_notification"
+        tools:layout="@layout/fragment_notification" />
+</navigation>
